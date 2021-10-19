@@ -4,16 +4,16 @@ import React from 'react';
 import Emoji from './Emoji';
 
 export default {
-  title: 'Example/Emoji',
-  component: Emoji,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+	title: 'Example/Emoji',
+	component: Emoji,
+	argTypes: {
+		backgroundColor: { control: 'color' },
+	},
 };
 
-const Template = (args) => <Emoji {...args} />;
+const Template = args => <Emoji {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  label: 'My Emoji',
+	label: 'My Emoji',
 };

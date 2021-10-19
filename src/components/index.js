@@ -1,5 +1,3 @@
 import Emoji from './Emoji';
 
-export { 
-    Emoji
-};
+export { Emoji };
